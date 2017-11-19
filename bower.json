@@ -1,0 +1,26 @@
+{
+  "name": "starter-template",
+  "description": "",
+  "main": "gulpfile.babel.js",
+  "authors": [
+    "Amasev Stas <amasev@yandex.ru>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "normalize-css": "normalize.css#^7.0.0",
+    "jquery": "^3.2.1"
+  },
+  "overrides": {
+    "bootstrap": {
+      "ignore": true
+    }
+  }
+}
