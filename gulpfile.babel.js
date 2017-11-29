@@ -32,8 +32,8 @@ export function clean(done) {
 function pages() {
 	return gulp.src('app/pages/**/*.html')
 		.pipe($.if(PRODUCTION, $.htmlReplace({
-			css: '/css/common.min.css',
-			js:  '/js/common.min.js'
+			css: 'css/common.min.css',
+			js:  'js/common.min.js'
 		})))
 		.pipe(gulp.dest('dist'));
 }
